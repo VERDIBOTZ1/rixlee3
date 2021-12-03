@@ -76,7 +76,7 @@ _quickTest()
 
 conn.version = [ 2, 2140, 12 ]
 conn.logger.level = "warn"
-conn.browserDescription = ['Rixle Type 3', 'SAFARI', '8.1']
+conn.browserDescription = ['ISMAIL', 'SAFARI', '8.1']
 
 // Mengurangi logger mempercepat Balas Pesan Fixed @arifirazzaq2001
 if (fs.existsSync(global.write.words.qrcode)) conn.loadAuthInfo(global.write.words.qrcode)
@@ -111,7 +111,7 @@ start('\n',
     });
 
 setInterval(() => {
- conn.setStatus(`PREFIX: ${userbot.prefix} | BOT AKTIF: ${Ft.count(process.uptime())} | 𝐑𝐨𝐚𝐝 𝐓𝐨 𝟑𝟎 𝐉𝐮𝐳 🍂 | 𝐏𝐞𝐣𝐮𝐚𝐧𝐠 𝐒𝐡𝐨𝐥𝐚𝐰𝐚𝐭 | Listening Youtube🎧`).catch((_) => _)
+ conn.setStatus(`❤️: ${userbot.prefix} | YT: Ismail Kurama ${Ft.count(process.uptime())} | Jangan Lupa | Subscribe`).catch((_) => _)
 },1000)
  require('./src/loader');
 
