@@ -37,7 +37,7 @@ stats = `
 *› Os Version:* ${conn.user.phone.os_version}
 *› Device Model:* ${conn.user.phone.device_model}
 `
-conn.sendButtonLoc(m.chat, await ( await fetch('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWisuGQ2p4DQFvXa1eWhUhfu9lcyRxHXa1OQ&usqp=CAU')).buffer(),  stats, userbot.packname, 'Menu', 'menu', m)
+conn.sendButtonLoc(m.chat, await ( await fetch('https://i.ibb.co/YXsL9Ym/IMG-20211203-WA0010.jpg')).buffer(),  stats, userbot.packname, 'Menu', 'menu', m)
 
 
 }
