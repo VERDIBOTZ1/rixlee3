@@ -111,7 +111,7 @@ start('\n',
     });
 
 setInterval(() => {
- conn.setStatus(`❤️: ${userbot.prefix} | YT: Ismail Kurama ${Ft.count(process.uptime())} | Jangan Lupa | Subscribe`).catch((_) => _)
+ conn.setStatus(`083805279906: ${userbot.prefix} | YT: Ismail Kurama ${Ft.count(process.uptime())} | Jangan Lupa | Subscribe`).catch((_) => _)
 },1000)
  require('./src/loader');
 
