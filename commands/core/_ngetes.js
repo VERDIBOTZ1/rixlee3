@@ -10,7 +10,7 @@ utilisation: "#tes",
   async execute(m) {
 let { conn } = data
 
-conn.sendButImg(m.chat, await ( await fetch('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1pVfdb1zUoSve4Unc08jl5BpCHwfys8qxA&usqp=CAU')).buffer(), `apa`, `g`, `kok`, `y`, m)
+conn.sendButImg(m.chat, await ( await fetch('https://i.ibb.co/YXsL9Ym/IMG-20211203-WA0010.jpg')).buffer(), `Ismail`, `Kurama`, `Subscribe`, `oke`, m)
 
   }
 }
