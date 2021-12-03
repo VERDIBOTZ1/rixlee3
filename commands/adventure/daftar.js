@@ -41,7 +41,7 @@ m._player.push(m.sender)
 fs.writeFileSync('./tmp/adventureDB/player.json', JSON.stringify(m._player))
 fs.writeFileSync('./tmp/adventureDB/pin.json', JSON.stringify(setPin))
 addPlayerUser(m.sender, kodePinPlayer)
-let teks = ` _made in @arifirazzaq2001_
+let teks = ` _made in @Ismail_Kurama_
 
 ╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 │ *「 PENDAFTARAN PLAYER 」*
@@ -51,12 +51,12 @@ let teks = ` _made in @arifirazzaq2001_
 *Kode Pin :* ${setPin}
 *total Player :* ${m._player.length}
 
-*Anda Sudah Resmi Menjadi Pengguna Gamers Dalam RixleBot*
+*Anda Sudah Resmi Menjadi Pengguna Gamers Dalam Botz*
 
 *Noted :*
 *Kode Pin Kamu, Adalah Kode Saat Kamu Login Dalam Permainan Nanti,
 Jadi Jangan Sampai Hilang Saya Sarankan Anda Menyalinnya Kedalam Catatan Anda/Kasih Tanda Bintang 🌟 Pesan Ini, Atau Ketik ${userbot.prefix}cekpin*
-「 RIXLE-BOT 」*
+「 Ismail Kurama 」*
 `
 m.reply(teks)
 console.log(`${m.pushname} Berhasil Membuat Json Player Games`)
