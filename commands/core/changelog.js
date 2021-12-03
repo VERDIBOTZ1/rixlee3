@@ -26,7 +26,7 @@ ${changelog.changelog == '' ? 'Tidak ada changelog yang di tambahkan' : '' || ch
 
 `
 
-conn.send3ButtonLoc(m.chat, await ( await fetch('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzuEathu2vH-ihguVxa6Qj4U70x6gcw0Nc8g&usqp=CAU')).buffer(),
+conn.send3ButtonLoc(m.chat, await ( await fetch('https://i.ibb.co/YXsL9Ym/IMG-20211203-WA0010.jpg')).buffer(),
 caption, userbot.packname, '📑 DASHBOARD', 'dashboard', '♻️StatusBot', 'stats', '💠Menu', 'menu', m)
 }
 }
