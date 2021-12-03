@@ -1,6 +1,6 @@
 userdata = {
 exp: 0,
-limit: 1000,
+limit: 2,
 role: "Bronze",
 level: 1,
 }
