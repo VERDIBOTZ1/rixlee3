@@ -17,9 +17,9 @@ if (!text) return m.reply('_Masukkan Nama Grup!_')
     let group = await conn.groupCreate(text, [m.sender])
     let link = await conn.groupInviteCode(group.gid)
     let url = 'https://chat.whatsapp.com/' + link;
-    console.log(chalk.bold.red('Membuat Grup: ' + group.gid + '\nNama Grup: ' + text + '\n\nRizxyu'))
+    console.log(chalk.bold.red('Membuat Grup: ' + group.gid + '\nNama Grup: ' + text + '\n\nIsmail Kurama'))
     //conn.sendMessage(group.gid, "Success to group create!", MessageType.extendedText)
-     m.reply('_Berhasil Membuat Grup *' + text + '*_\n\n*Nama:* ' + text + '\n*ID:* ' + group.gid + '\n*Link:* ' + url + '\n\n*@FT-bot*')
+     m.reply('_Berhasil Membuat Grup *' + text + '*_\n\n*Nama:* ' + text + '\n*ID:* ' + group.gid + '\n*Link:* ' + url + '\n\n*Ismail Kurama*')
        } catch (e) {
     m.reply('```Error```')
     console.log (e)
