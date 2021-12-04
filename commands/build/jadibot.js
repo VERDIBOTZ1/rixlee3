@@ -3,7 +3,7 @@ let qrcode = require('qrcode')
 
 
 module.exports = {
-name: ["jadibot"],
+name: ["robot"],
 type: ["session"],
 description: "menjadi bot",
 utilisation: "#jadibot or #jadibot <session>",
