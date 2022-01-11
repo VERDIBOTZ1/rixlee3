@@ -1,7 +1,7 @@
 const fs = require("fs")
 userbot = {
 Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
- owner: [ "6283805279906" ],
+ owner: [ "6283869803330" ],
   MONGO_URI: "mongodb+srv://zanDb:veth0581@cluster0.eyx0e.mongodb.net/<mydb>?retryWrites=true&w=majority",
    mess: {
    wait: "tunggu sedang di proses...",
@@ -34,8 +34,8 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    eror: "Sepertinya Eror",
    waits: "Sedang di proses",
    butmag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHDLrd0_DwHnJfuZ_pRMOAbLi3-ot-NxyPA&usqp=CAU',
-   packname: "Ismail Kurama",
-   author: 'Ismail Kurama',
+   packname: "VERDI TZY",
+   author: 'BOCAH TZY',
     setting: {
     admin: "only admin",
     group: "only group",
